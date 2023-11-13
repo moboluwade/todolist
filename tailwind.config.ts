@@ -22,6 +22,7 @@ const config: Config = {
         'list-blue-dark': '#1E6F9F',
         'list-purple': '#8284FA',
         'list-white': '#F2F2F2',
+        'list-text-lightGrey': '#808080',
       },
     },
   },
