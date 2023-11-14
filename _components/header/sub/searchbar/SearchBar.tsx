@@ -2,6 +2,7 @@
 import { PlusSVG } from '@/_components/svg'
 import { useState } from 'react'
 
+
 const SearchBar = (props: { handleTodo: (query: string) => void }) => {
     const [query, setQuery] = useState<string>('')
 
