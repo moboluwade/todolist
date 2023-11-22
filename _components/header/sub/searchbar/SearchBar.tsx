@@ -2,12 +2,14 @@
 import { PlusSVG } from '@/_components/svg'
 import { useState } from 'react'
 
-const SearchBar = (props: { handleTodo: (query: string) => void }) => {
+
+const SearchBar = () => {
     const [query, setQuery] = useState<string>('')
 
     const handleSubmit = (string: string) => {
         //handle fetch to db
-
+        // props.handleTodo(string)
+        // console.log('add todo to todo list', string)
     }
     return (
         <div className='absolute -bottom-7 flex flex-row center'>
