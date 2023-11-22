@@ -5,7 +5,7 @@ const NoTaskEntries = () => {
     return (
         <>
             <NoteBoard />
-            <span className='text-list-text-lightGrey pt-4 font-bold'>You don't have tasks registered yet</span>
+            <span className='text-list-text-lightGrey pt-4 font-bold'>You dont have tasks registered yet</span>
             <span className='text-list-text-lightGrey font-medium'>Create tasks and organize your to-do items</span>
         </>
     )
