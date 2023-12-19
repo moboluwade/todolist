@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/_components/header'
-import { Store } from '@reduxjs/toolkit'
-import { Provider } from 'react-redux'
-import { store } from '@/redux/store'
+// import { Store } from '@reduxjs/toolkit'
+// import { Provider } from 'react-redux'
+// import { store } from '@/redux/store'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,10 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`flex flex-col ${inter.className}`}>
-        <Provider store={store}>
+        {/* <Provider store={store}> */}
           <Header />
           {children}
-        </Provider>
+        {/* </Provider> */}
       </body>
     </html>
   )
